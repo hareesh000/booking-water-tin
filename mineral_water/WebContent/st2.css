@@ -1,0 +1,66 @@
+@charset "ISO-8859-1";
+
+.loginbox
+{
+
+	background:black;
+	color:#fff;
+
+	position:absolute;
+
+	padding:70px 15px;
+	border-radius:20px;
+}
+h1
+{
+	margin:0;
+	padding:0 0 30px;
+	text-align:center;
+}
+.loginbox p
+{
+	margin:0;
+	padding:0;
+	font-weight:bold;
+
+
+}
+.loginbox input
+{
+	width:100%;
+	margin-bottom:20px;
+
+
+}
+.loginbox input[type="password"],input[type="text"],input[list="street"],input[type="email"],input[list="gender"]
+{
+	border:none;
+	border-bottom:1px solid #fff;
+	background:transparent;
+	outline:none;
+	height:40px;
+	color:#fff;
+	font-size:16px;
+}
+.loginbox input[type="submit"]
+{
+	border:none;
+	outline:none;
+	background:#fb2525;
+	height:40px;
+	color:#fff;
+	font-size:16px;	
+	border-radius:20px;
+}
+
+a {
+  color: white;
+}
+::placeholder 
+{ /* Firefox, Chrome, Opera */ 
+    color: orange; 
+}
+::select 
+{ /* Firefox, Chrome, Opera */ 
+    color: orange; 
+}

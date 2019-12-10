@@ -1,0 +1,36 @@
+@charset "ISO-8859-1";
+
+.forbuttonsgrouping button {
+  background-color:#FFA500; 
+  border: 3px solid green; /*for combing borders*/
+  color: white; 
+  padding: 5px 40px; 
+  border: none;
+  border-right:1px solid #fff;
+  float: center; 
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:black;/* #f1f1f1;*/
+  min-width: 160px;
+
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: green;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: red/*#3e8e41;*/}
